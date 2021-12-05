@@ -20,6 +20,7 @@ const GET_MODULE = gql`
         modules {
           id
           title
+          durationInSeconds
         }
       }
     }
