@@ -5,7 +5,7 @@ import Pages from './pages';
 import {ApolloClient, ApolloProvider, InMemoryCache} from "@apollo/client";
 
 const apollo = new ApolloClient({
-    uri: "http://localhost:4000", // https://odyssey-graphql-server.herokuapp.com/",
+    uri: "https://odyssey-graphql-server.herokuapp.com/",
     cache: new InMemoryCache(),
 })
 
